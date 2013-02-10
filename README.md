@@ -11,7 +11,7 @@ To add the libs to your project. Add this repository to ``<repositories>`` block
       <url>https://raw.github.com/slok/algs4-mvn-repo/master</url>
     </repository>
 
-And then the dependencies to ``dependencies`` block:
+And then the dependencies to ``<dependencies>`` block:
 
 	<dependency>
 	  <groupId>org.coursera.algs4.algs4</groupId>

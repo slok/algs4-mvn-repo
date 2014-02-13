@@ -8,7 +8,7 @@ To add the libs to your project. Add this repository to ``<repositories>`` block
     <repository>
       <id>org.corsera.algs4</id>
       <name>Algs4 coursera course custom repository</name>
-      <url>https://raw.github.com/slok/algs4-mvn-repo/master</url>
+      <url>https://raw.github.com/arinto/algs4-mvn-repo/master</url>
     </repository>
 
 And then the dependencies to ``<dependencies>`` block:

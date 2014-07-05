@@ -13,6 +13,20 @@ To add the libs to your project. Add this repository to ``<repositories>`` block
 
 And then the dependencies to ``<dependencies>`` block:
 
+    <dependency>
+      <groupId>edu.princeton.cs.introcs</groupId>
+      <artifactId>algs4-package</artifactId>
+      <version>1.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>edu.princeton.cs.introcs</groupId>
+      <artifactId>stdlib-package</artifactId>
+      <version>1.0</version>
+    </dependency>
+
+Alteratively to use dependencies without packages use the following dependencies.
+
 	<dependency>
 	  <groupId>org.coursera.algs4.algs4</groupId>
 	  <artifactId>algs4</artifactId>
@@ -24,4 +38,7 @@ And then the dependencies to ``<dependencies>`` block:
 	  <artifactId>stdlib</artifactId>
 	  <version>1.0</version>
 	</dependency>
+
+
+
 

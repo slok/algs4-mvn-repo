@@ -3,6 +3,8 @@ The copyright of this code belongs to the original authors not me**
 
 Maven repository for algorithms and data structures Coursera course
 
+## Maven setup
+
 To add the libs to your project. Add this repository to ``<repositories>`` block:
 
     <repository>
@@ -48,6 +50,19 @@ To use this variant add the following dependency:
 	  <version>1.0</version>
 	</dependency>
 	
+## Gradle setup
+	
+To use this dependency with Gradle build add the following line to the repositories section:
+
+	repositories {
+		maven { url 'https://raw.github.com/slok/algs4-mvn-repo/master' }
+	}
+
+and declare this compile time dependency:	
+	
+	dependencies {
+		compile 'edu.princeton.cs.algs4:algs4:1.0'
+	}	
 
 
 

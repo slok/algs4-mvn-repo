@@ -1,7 +1,7 @@
 **These libraries aren't mine, this is only a maven repository.
 The copyright of this code belongs to the original authors not me**
 
-Maven repository for algorithms and data structures coursera course
+Maven repository for algorithms and data structures Coursera course
 
 To add the libs to your project. Add this repository to ``<repositories>`` block:
 
@@ -25,7 +25,7 @@ And then the dependencies to ``<dependencies>`` block:
       <version>1.0</version>
     </dependency>
 
-Alteratively to use dependencies without packages use the following dependencies.
+Alternatively to use dependencies without packages use the following dependencies.
 
 	<dependency>
 	  <groupId>org.coursera.algs4.algs4</groupId>
@@ -38,6 +38,8 @@ Alteratively to use dependencies without packages use the following dependencies
 	  <artifactId>stdlib</artifactId>
 	  <version>1.0</version>
 	</dependency>
+	
+
 
 
 

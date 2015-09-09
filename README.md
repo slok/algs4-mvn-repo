@@ -38,6 +38,15 @@ Alternatively to use dependencies without packages use the following dependencie
 	  <artifactId>stdlib</artifactId>
 	  <version>1.0</version>
 	</dependency>
+
+In August 2015 the authors have merged stdlib into algs4.jar and moved classes into 'edu.princeton.cs.algs4' package.
+To use this variant add the following dependency:
+
+	<dependency>
+	  <groupId>edu.princeton.cs.algs4</groupId>
+	  <artifactId>algs4</artifactId>
+	  <version>1.0</version>
+	</dependency>
 	
 
 

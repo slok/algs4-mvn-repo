@@ -1,4 +1,4 @@
-#NOte: Deprecated. [Use this repository instead](https://bintray.com/algs4/maven/algs4)
+#Note: Deprecated. [Use this repository instead](https://bintray.com/algs4/maven/algs4)
 
 **These libraries aren't mine, this is only a maven repository.
 The copyright of this code belongs to the original authors not me**
